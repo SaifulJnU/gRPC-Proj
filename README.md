@@ -74,12 +74,17 @@ In previous http, to make multiple request and response it needs to make multipl
 
 3. Non human readable format: protobuf compresses gRPC messages into a non human readable format. This compiler needs the messages interface description in the file to deserialize correctly so developers need additional tools like the gRPC command line tool to analyze protobuf payload on the wire and they also write manual requests and perform debugging.
 
-4. No edge Caching:
+4. No edge Caching
 ---
 
 
 # Build-First-gRPC Project:
 --------------------------
+## Prerequisites:
+1. Install Go
+2. Install Protobuf
+   
+---
 
 Step 1: At first create mod file. 
 ```
@@ -199,7 +204,7 @@ After that will have the beautiful UI of bloomrpc then you need to import your p
 
 then, after clicking on the play button you will have your response message.
 
-Happy Coding!
+## Happy Coding!
 
                 
         
