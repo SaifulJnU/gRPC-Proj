@@ -1,0 +1,27 @@
+// define version
+syntax = "proto3";
+
+// where to put the generated code
+option go_package = "github.com/saifuljnu/demo-grpc/invoicer";
+
+// define service
+message Amount {
+    int64 amount = 1;
+    string currency = 2;
+}
+
+message CreateRequest {
+    Amount amount = 1;
+    string from = 2;
+    string to = 3;
+    string VATnum = 4;
+}
+
+message CreateResponse {
+    bytes pdf = 1;
+    bytes docx = 2;
+}
+
+service Invoice {
+    rpc Create(CreateRequest) returns (CreateResponse);
+}
