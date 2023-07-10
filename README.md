@@ -204,7 +204,10 @@ After that will have the beautiful UI of bloomrpc then you need to import your p
 
 then, after clicking on the play button you will have your response message.
 
+![Screenshot from 2023-07-10 23-07-00](https://github.com/SaifulJnU/gRPC-Proj/assets/47039014/912b67e6-9fb3-4c2a-9ea2-b8440852dd6b)
+
 ## Happy Coding!
 
                 
         
+
